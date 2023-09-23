@@ -1,0 +1,17 @@
+//physical split string to string array
+
+public class Stringsplite
+{
+    public static void main(String[] args)
+    {
+String words ="Mathematics optics phonics";
+String a[]=words.split(" "); //split is a predefined method 
+
+for(int i=0;i<a.length;i=i+1)
+{
+System.out.println(a[i]);
+}
+}
+}
+
+
